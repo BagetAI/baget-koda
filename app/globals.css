@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 45, 45, 45;
+  --background-start-rgb: 240, 238, 233;
+  --background-end-rgb: 240, 238, 233;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-montserrat);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.minimal-border {
+  border: 0.5px solid #E5E5E5;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+input, select {
+  border-radius: 0 !important;
+}
